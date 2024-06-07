@@ -8,15 +8,49 @@
 <body>
     <h1>Registro de Datos</h1>
     <form action="">
-        Selecciona el color de tu preferencia: <br>
-        <select name="color" id="color">
+    <fieldset>
+        <legend>Datos de usuario</legend>
+        <label for="lcolor">Selecciona el color de tu preferencia:</label><br>
+        <select name="color" id="lcolor">
            <option value="rojo">rojo</option> 
            <option value="celeste">Mi color preferido celeste</option> 
-           <option value="verde">verde</option> 
-           <option value="amarillo">amarillo</option> 
-        </select>
+           <option value="verde" >verde</option> 
+           <option value="amarillo" selected>amarillo</option> 
+        </select><br>
+
+        <label for="ldpto">Seleccione el departamento donde vive</label><br>
+        <select name="ldpto" id="ldpto" size="3">
+            <option value="La Paz">La Paz</option>
+            <option value="Beni">Beni</option>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="Tarija">Tarija</option>
+        </select><br>
+
+        <label for="lflores">Selecciona las flores de tu preferencia</label><br>
+        <select name="" id="lflores" size="4" multiple>
+            <option value="rosa">rosa</option>
+            <option value="clavel">clavel</option>
+            <option value="kantuta">kantuta</option>
+            <option value="dalia">dalia</option>
+        </select><br>
+
+        <label for="ldescricion">Describa la ubicacion de su domicilio:</label><br>
+        <textarea name="" id="ldescripcion" cols="30" rows="5"></textarea>
         <br>
-        <input type="submit">
+
+        <label for="lmueble">Seleccionar el mueble de su preferencia:</label><br>
+        <input id="lmueble" list="muebles">
+        <datalist id="muebles">
+            <option value="Mesa"></option>
+            <option value="Silla"></option>
+            <option value="Escritorio"></option>
+        </datalist>
+        
+        <br>
+        <br>
+        <button type="button">Registrar</button>
+    </fieldset>
+       
     </form>
 </body>
 </html>
