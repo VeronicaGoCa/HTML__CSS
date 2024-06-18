@@ -1,0 +1,37 @@
+/**
+Propiedades de Texto
+*/
+#texto1{
+    color: blue; /*Propeidad que establece el color de texto*/
+    text-align:center; /*Establece .a alineacion horizontal de un texto left, justify, center... */
+}
+#texto2{
+    background-color: blueviolet; /*establece el color de fondo*/
+}
+#texto3{
+    text-decoration-line: underline; /*Agrega una linea decorativa al texto*/
+    text-decoration-color: red;/*Establece un color de linea*/
+    text-decoration-style: dashed;/*Establece es estilo de la linea decorativa wavy, dashed, dotted, solid*/
+}
+a{
+    text-decoration-line: none;
+}
+
+#texto4{
+    text-decoration: underline red wavy;
+}
+#texto5{
+    text-transform: uppercase; /*Permite convertir el texto en mayuscula o minuscula o poner en mayuscula la primera letra de cada palabara (lowercase, capitalize, uppercase)*/
+}
+#texto6{
+    letter-spacing: 1px ; /*Establece el comportamiento del espaciado horizontal entre caracteres de texto*/
+}
+
+#texto7{
+    line-height: 1.8;/*Propiedad que establece el espacio entre lineas*/
+}
+
+#texto8{
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.5px red; /*Propeidad que agrega sombra al texto ==> 0.7px ==> horizontal 0.5px ==> sombra en el eje vertical*/
+}

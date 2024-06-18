@@ -1,0 +1,10 @@
+/**
+Selector por class
+*/
+.titulo{
+    text-align: center;
+    color: blue;
+}
+.contenido{
+    border-style: outset;
+}
