@@ -1,0 +1,39 @@
+body{
+ font-size: 25px;
+}
+
+.parrafo1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parrafo2{
+    font-style: oblique; /* normal, oblique(menos soportado), italic*/
+}
+
+.parrafo3{
+    font-weight: bold;/*especifica el peso de la fuente*/
+}
+
+/*=========================*/
+.parrafo4{
+    font-size: 14px; /*establece el tamaño de la funte en pixeles*/
+}
+/*
+El em es una unidad de medida
+(16px = 1em)
+El tamaño de un elemento en em sera relativo al atamaño de la fuente del elemento que lo contiene.
+*/
+.parrafo5{
+    font-size: 2em;
+    color: blue;
+}
+.parrafo6{
+    font-size: 0.875em;
+}
+
+/*
+La unidad de emdida rem es muy similar al em, con la unica diferencia de que no es escalable, esto quiere decir que no depende del elemento padre o del elemento que lo contiene. Sino depende del elemento raiz del documento.
+*/
+
+.parrafo7{
+    font-size: 2rem;
+}
