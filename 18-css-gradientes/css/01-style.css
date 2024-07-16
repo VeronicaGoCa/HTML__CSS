@@ -1,0 +1,42 @@
+.card1{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(#000, transparent);
+}
+.card2{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(#000, #999, #044);
+}
+.card3{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #000, transparent); /*left , top , bottom*/
+}
+.card4{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom left, #000, transparent);
+}
+
+.card5{
+    width: 100%;
+    height: 100px;
+    background-image: radial-gradient(red, #fa0, #aa0);
+}
+.card6{
+    width: 100%;
+    height: 100px;
+    background-image: radial-gradient(red 5%, #fa0 15% , #aa0 80%);
+}
+.card7{
+    width: 100%;
+    height: 100px;
+    background-image: conic-gradient(red, #fa0 , #aa0);
+}
+.card8{
+    width: 100px;
+    height: 100px;
+    background-image: conic-gradient(red, #fa0 , #aa0);
+    border-radius:50% ;
+}

@@ -1,0 +1,31 @@
+*{
+    margin:10px;
+}
+
+table{
+  border: 1px solid blue; 
+  margin: 30px auto; 
+}
+tr{
+    background-color: #aaaadd;
+}
+.cuadro1{
+    width: 100px;
+    height: 100px;
+    background-color: #aaaadd;
+}
+.cuadro2{
+    width: 100px;
+    height: 100px;
+    background-color: #aaaaddB3;/*70%*/
+}
+.cuadro3{
+    width: 100px;
+    height: 100px;
+    background-color: #aaaadd80;/*50%*/
+}
+.cuadro4{
+    width: 100px;
+    height: 100px;
+    background-color: #aaaadd33;/*20%*/
+}

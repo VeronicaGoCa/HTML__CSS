@@ -1,0 +1,20 @@
+.cuadro1{
+    width: 100px;
+    height: 100px;
+    background-color: #aad;
+}
+.cuadro2{
+    width: 100px;
+    height: 100px;
+    background-color: #aada;/*70%*/
+}
+.cuadro3{
+    width: 100px;
+    height: 100px;
+    background-color: #aad5;/*50%*/
+}
+.cuadro4{
+    width: 100px;
+    height: 100px;
+    background-color: #aad2;/*20%*/
+}
