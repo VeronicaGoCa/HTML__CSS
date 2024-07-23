@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/01-style.css">
+</head>
+<body>
+    <form action="" class="formulario">
+        <h2>FORMULARIO DE ENVIO DE MUEBLES</h2>
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <div class="entrada-datos">
+                <input type="text" placeholder="Nombre completo">
+            </div>
+            <div class="entrada-datos">
+                <input type="text" placeholder="Número de Celular">
+            </div>
+            <div class="entrada-datos">
+                <textarea name="" id="" placeholder="Describa la direccion donde vive"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>DATOS DE ENVIO</legend>
+            <details>
+                <summary>Leer Detalle</summary>
+                <p class="summary-det">
+                    En Muebleria Tosa, nos enorgullecemos de ofrecer una variedad de muebles. Ya sea para comedor, dormitorio.
+                </p>
+            </details>
+            <div class="entrada-datos">
+                <label for="">Tipo de mueble
+                    <select name="" id="">
+                        <option value="Muebles de sala">Muebles de sala</option>
+                        <option value="Muebles de comedor">Muebles de coemdor</option>
+                        <option value="Muebles de dormitorio ">Muebles de dormitorio</option>
+                        <option value="Muebles de oficina">Muebles de oficina</option>
+                    </select>
+                </label>
+            </div>
+            <div class="entrada-datos">
+                <label for="">Seleccionar los muebles para en envio
+                    <select name="" id="" multiple class="selectmultiple">
+                        <option value="Camas">Camas</option>
+                        <option value="Comoda">Comoda</option>
+                        <option value="Vitrina">Vitrina</option>
+                        <option value="Sillas">Silla|</option>
+                        <option value="Eestanterias">Estanterias</option>
+                        <option value="Sillones">Sillones</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="">Seleccionar terminos y condiciones
+                    <input type="checkbox" class="check">
+                </label>
+            </div>
+        </fieldset>
+        <input type="button" value="Enviar" class="button">
+        <input type="button" value="Cancelar" class="button">
+    </form>
+</body>
+</html>
